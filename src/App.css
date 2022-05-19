@@ -2,6 +2,60 @@
   text-align: center;
 }
 
+.input{
+  height: 20px;
+  width: 290px;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.input div input[type='radio']:after{
+  width: 13px;
+  height: 13px;
+  border-radius: 15px;
+  top: -5px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 4px solid rgb(4, 0, 255);
+ }
+ .input div input[type='radio']:checked:after{
+   width: 13px;
+   height: 13px;
+   border-radius: 15px;
+   top: -5px;
+   left: -1px;
+   position: relative;
+   background-color: #d1d3d1;
+   content: '';
+   display: inline-block;
+   visibility: visible;
+   border: 4px solid teal;
+  }
+ 
+
+.list
+{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
