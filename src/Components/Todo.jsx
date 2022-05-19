@@ -42,7 +42,10 @@ const Todo = () => {
   };
   return (
     <div style={TodoBox}>
-      TodoApp
+      <h1>TodoApp</h1>
+      <div className="list">
+        <TodoList todos={todos} />
+      </div>
       <div style={inputBox}>
         <input
           className="input"
@@ -62,9 +65,6 @@ const Todo = () => {
         >
           +
         </button>
-      </div>
-      <div className="list">
-        <TodoList todos={todos} />
       </div>
     </div>
   );
